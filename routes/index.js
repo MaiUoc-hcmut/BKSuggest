@@ -9,9 +9,9 @@ const Stall = require('../controllers/stallController');
 const Favorite = require('../controllers/favoriteController');
 const Photo = require('../config/photo');
 
-// router.get('/', (req, res) => {
-//     res.send('Welcome to BKVenue!!!!');
-// });
+router.get('/', (req, res) => {
+    res.send('Welcome to BKVenue!!!!');
+});
 
 // User authentication
 router.post("/user/register", Auth.register);  // đăng ký
