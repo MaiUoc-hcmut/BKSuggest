@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const port = 5000;
-const { db } = require('./config/firebase');
-const route = require('./routes/index');
+const { db } = require('../config/firebase');
+const route = require('../routes/index');
 
 var cors = require('cors');
 
